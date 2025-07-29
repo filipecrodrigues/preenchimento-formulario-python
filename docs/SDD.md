@@ -54,6 +54,7 @@ Veja o diagrama visual: `docs/fluxo_selenium.drawio.png`
 ```
 ## 6. Estrutura de Arquivos
 
+```
 
 preenchimento_formulario_python/
 ├── main.py
