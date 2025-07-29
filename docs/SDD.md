@@ -30,6 +30,7 @@ Automação para preencher e enviar um formulário do Google Forms com dados de 
 
 ## 4. Arquitetura da Solução
 
+```
 main.py
 │
 ├── Lista de alunos (nome + CPF)
@@ -53,14 +54,16 @@ Veja o diagrama visual: `docs/fluxo_selenium.drawio.png`
 
 ## 6. Estrutura de Arquivos
 
+```
 preenchimento_formulario_python/
 ├── main.py
 ├── docs/
-│ ├── fluxo_selenium.drawio
-│ ├── fluxo_selenium.drawio.png
-│ └── SDD.md
+│   ├── fluxo_selenium.drawio
+│   ├── fluxo_selenium.drawio.png
+│   └── SDD.md
 ├── log_envios.txt
 └── README.md
+
 
 
 ---
