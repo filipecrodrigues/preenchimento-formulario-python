@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Fluxo Selenium - Envio de Formulário" id="7JPyEq-06a9FSMKuuWUg">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-1" value="Início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="10" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-2" value="Abrir navegador Chrome" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-3" value="Iterar sobre lista de alunos" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="210" width="215" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-4" value="Abrir formulário Google Forms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="330" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-5" value="Preencher Nome e CPF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="430" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-6" value="Clicar em &#39;Enviar&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="560" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-7" value="Logar envio no arquivo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="690" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-8" value="&#39;Enviar outra resposta&#39; está visível?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="800" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-9" value="Sim" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-8" target="cdJP9bBCzoPtaXwSqZPH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="940" />
+              <mxPoint x="480" y="940" />
+              <mxPoint x="480" y="535" />
+              <mxPoint x="330" y="535" />
+              <mxPoint x="330" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-10" value="Não" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-8" target="cdJP9bBCzoPtaXwSqZPH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-11" value="Encerrar navegador" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="970" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-12" style="endArrow=block;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-1" target="cdJP9bBCzoPtaXwSqZPH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-13" style="endArrow=block;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-2" target="cdJP9bBCzoPtaXwSqZPH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-14" style="endArrow=block;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-3" target="cdJP9bBCzoPtaXwSqZPH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-15" style="endArrow=block;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-4" target="cdJP9bBCzoPtaXwSqZPH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-16" style="endArrow=block;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-5" target="cdJP9bBCzoPtaXwSqZPH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-17" style="endArrow=block;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-6" target="cdJP9bBCzoPtaXwSqZPH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cdJP9bBCzoPtaXwSqZPH-18" style="endArrow=block;" edge="1" parent="1" source="cdJP9bBCzoPtaXwSqZPH-7" target="cdJP9bBCzoPtaXwSqZPH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
