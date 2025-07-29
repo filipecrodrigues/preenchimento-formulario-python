@@ -17,4 +17,6 @@ Este projeto automatiza o preenchimento de um formulário do Google Forms utiliz
 
 - Python 3.8 ou superior
 - Google Chrome instalado
+## 📊 Diagrama de Fluxo da Automação Selenium
 
+![Fluxo Selenium](./docs/fluxo_selenium.drawio.png)
